@@ -147,9 +147,43 @@
       box-shadow: 0 4px 8px rgb(248, 245, 245);
       margin-top: 20px;
     }
+
+   body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+    }
+    .navbar {
+      display: flex;
+      justify-content: center;
+      background-color: #222;
+      padding: 10px 0;
+    }
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      margin: 0 10px;
+      font-size: 18px;
+      transition: background 0.3s;
+    }
+    .navbar a:hover {
+      background-color: #555;
+      border-radius: 5px;
+    }
   </style>
 </head>
 <body>
+
+
+
 <nav class="navbar">
   <a href="#inicio">Inicio</a>
 
@@ -161,8 +195,10 @@
 
 </nav>
 
-<header>
-  <img src="img/logo.jpg" alt="diore">
+<hr style="border: 5px solid black; width: 100%;">
+
+  <center><img src="img/logo.jpg" alt="diore"> </center>
+
 </header>
 
 <hr style="border: 5px solid black; width: 100%;">
